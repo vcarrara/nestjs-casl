@@ -11,7 +11,7 @@ import { UsersModule } from './users/users.module'
 
 @Module({
     imports: [
-        MongooseModule.forRoot('mongodb+srv://olympe-data:WQ9grtEFoEk4OPZ6@test-cluster.j2rt3.mongodb.net/casl'),
+        MongooseModule.forRoot(''),
         EventEmitterModule.forRoot(),
         CaslModule,
         DashboardsModule,
